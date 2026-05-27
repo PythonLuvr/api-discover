@@ -1,15 +1,12 @@
 # api-discover
 
-**Point at any website. Get a typed API client.**
+**Point at any website. Get back code that talks to it like an API.**
 
-`api-discover` drives a real browser session, captures every XHR and WebSocket frame, and emits:
+Plenty of useful web tools have no public API. The only way to use them programmatically is either to click around by hand or write a scraper from scratch. `api-discover` replaces both. It watches one of your real browser sessions, captures every network call the site makes, and writes a typed client you can call from your own code.
 
-- `openapi.yaml`: OpenAPI 3.1 spec with one operation per discovered endpoint
-- `client.mjs`: zero-dep fetch SDK, one function per operation
-- `report.html`: visual report with a `curl` example per endpoint
-- `auth-analysis.md`: **upfront verdict on whether HTTP-only replay will work**, or whether the target needs in-browser execution
+It also tells you upfront if the site uses bot protections (CAPTCHAs, request signing, results delivered over WebSocket) that would block your code from running outside a real browser. That last part is the unique piece. Most tools dump captures and let you discover at 2 AM that the endpoint you wanted is gated.
 
-The last one is the part nobody else does. Most "API scraper" tools dump captures and leave you to discover at 2 AM that the endpoint you wanted is gated by Cloudflare Turnstile and your client will never authenticate. `api-discover` tells you that before you write a line of client code.
+For developers: emits OpenAPI 3.1, a zero-dependency JavaScript client, a visual report with `curl` examples, and a 15-rule auth-feasibility analysis (Turnstile, CSRF families, SSO chains, etc.).
 
 ## Quickstart
 
