@@ -1,0 +1,4 @@
+{"method":"Network.requestWillBeSent","params":{"requestId":"1","request":{"url":"https://api.example.com/items","method":"GET","headers":{"x-workspace-id":"ws_123","Authorization":"Bearer t"},"postData":null}}}
+{"method":"Network.requestWillBeSent","params":{"requestId":"2","request":{"url":"https://api.example.com/items","method":"GET","headers":{"x-workspace-id":"ws_123","Authorization":"Bearer t"},"postData":null}}}
+{"method":"Network.requestWillBeSent","params":{"requestId":"3","request":{"url":"https://api.example.com/items","method":"POST","headers":{"x-workspace-id":"ws_123","Authorization":"Bearer t"},"postData":null}}}
+{"method":"Network.requestWillBeSent","params":{"requestId":"4","request":{"url":"https://api.example.com/me","method":"GET","headers":{"x-workspace-id":"ws_123","Authorization":"Bearer t"},"postData":null}}}

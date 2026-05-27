@@ -1,0 +1,2 @@
+{"method":"Network.requestWillBeSent","params":{"requestId":"1","request":{"url":"https://api.example.com/items","method":"OPTIONS","headers":{},"postData":null}}}
+{"method":"Network.requestWillBeSent","params":{"requestId":"2","request":{"url":"https://api.example.com/items","method":"POST","headers":{"Cookie":"sessionid=x"},"postData":null}}}

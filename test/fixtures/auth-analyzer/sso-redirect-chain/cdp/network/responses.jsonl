@@ -1,0 +1,4 @@
+{"method":"Network.responseReceived","params":{"requestId":"1","response":{"url":"https://app.example.com/login","status":302,"headers":{}}}}
+{"method":"Network.responseReceived","params":{"requestId":"2","response":{"url":"https://auth.example.com/saml/login","status":302,"headers":{}}}}
+{"method":"Network.responseReceived","params":{"requestId":"3","response":{"url":"https://accounts.google.com/o/oauth2/v2/auth","status":302,"headers":{}}}}
+{"method":"Network.responseReceived","params":{"requestId":"4","response":{"url":"https://app.example.com/oauth/callback","status":302,"headers":{}}}}

@@ -1,0 +1,1 @@
+{"method":"Network.responseReceived","params":{"requestId":"1","response":{"url":"https://api.example.com/v1/orders","status":200,"headers":{}}}}

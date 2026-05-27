@@ -1,0 +1,1 @@
+{"method":"Network.requestWillBeSent","params":{"requestId":"1","request":{"url":"https://protected.example.com/api/generate","method":"POST","headers":{"Content-Type":"application/json","cf-turnstile-response":"0.aXJsYWtqaGRsa2pmaGFsa2pkZmhhbGtqZGZoYWxramRm"},"postData":"{\"prompt\":\"hello\"}"}}}

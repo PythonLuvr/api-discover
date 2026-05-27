@@ -1,0 +1,1 @@
+{"method":"Network.requestWillBeSent","params":{"requestId":"1","request":{"url":"https://app.example.com/api/items","method":"POST","headers":{"Cookie":"sessionid=sess_xyz; csrftoken=tok_abc123","x-csrftoken":"tok_abc123"},"postData":null}}}

@@ -1,0 +1,1 @@
+{"method":"Network.requestWillBeSent","params":{"requestId":"1","request":{"url":"https://app.example.com/login","method":"POST","headers":{"g-recaptcha-response":"03AGdBq25SiS6Sxx...truncated...XYZ"},"postData":null}}}

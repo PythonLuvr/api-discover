@@ -1,0 +1,1 @@
+{"method":"Network.requestWillBeSent","params":{"requestId":"1","request":{"url":"https://app.example.com/api/jobs","method":"POST","headers":{"Content-Type":"application/json"},"postData":"{\"prompt\":\"x\"}"}}}

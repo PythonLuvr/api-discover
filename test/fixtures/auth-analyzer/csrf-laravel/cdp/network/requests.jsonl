@@ -1,0 +1,1 @@
+{"method":"Network.requestWillBeSent","params":{"requestId":"1","request":{"url":"https://app.example.com/users","method":"POST","headers":{"Cookie":"laravel_session=sess_xyz; XSRF-TOKEN=eyJhbGciOi...","x-xsrf-token":"eyJhbGciOi..."},"postData":null}}}

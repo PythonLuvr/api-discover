@@ -1,0 +1,1 @@
+{"method":"Network.requestWillBeSent","params":{"requestId":"1","request":{"url":"https://api.example.com/v1/orders","method":"POST","headers":{"x-signature":"sha256=abc123def456789","x-content-sha256":"def456abc789"},"postData":null}}}

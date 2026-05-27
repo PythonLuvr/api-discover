@@ -1,0 +1,1 @@
+{"method":"Network.requestWillBeSent","params":{"requestId":"1","request":{"url":"https://app.example.com/me","method":"GET","headers":{"Cookie":"sessionid=sess_xyz","sentry-trace":"00-abc-def-01","baggage":"sentry-trace_id=abc"},"postData":null}}}

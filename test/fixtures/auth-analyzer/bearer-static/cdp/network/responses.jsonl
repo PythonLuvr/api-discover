@@ -1,0 +1,3 @@
+{"method":"Network.responseReceived","params":{"requestId":"1","response":{"url":"https://api.example.com/me","status":200,"headers":{}}}}
+{"method":"Network.responseReceived","params":{"requestId":"2","response":{"url":"https://api.example.com/projects","status":200,"headers":{}}}}
+{"method":"Network.responseReceived","params":{"requestId":"3","response":{"url":"https://api.example.com/projects","status":201,"headers":{}}}}

@@ -1,0 +1,1 @@
+{"method":"Network.requestWillBeSent","params":{"requestId":"1","request":{"url":"https://app.example.com/signup","method":"POST","headers":{"h-captcha-response":"10000000-aaaa-bbbb-cccc-000000000001"},"postData":null}}}

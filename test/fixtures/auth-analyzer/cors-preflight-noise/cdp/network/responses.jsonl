@@ -1,0 +1,2 @@
+{"method":"Network.responseReceived","params":{"requestId":"1","response":{"url":"https://api.example.com/items","status":200,"headers":{}}}}
+{"method":"Network.responseReceived","params":{"requestId":"2","response":{"url":"https://api.example.com/items","status":201,"headers":{}}}}

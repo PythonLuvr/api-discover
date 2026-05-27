@@ -1,0 +1,4 @@
+{"method":"Network.requestWillBeSent","params":{"requestId":"1","request":{"url":"https://app.example.com/login","method":"GET","headers":{},"postData":null}}}
+{"method":"Network.requestWillBeSent","params":{"requestId":"2","request":{"url":"https://auth.example.com/saml/login?redirect=app.example.com","method":"GET","headers":{},"postData":null}}}
+{"method":"Network.requestWillBeSent","params":{"requestId":"3","request":{"url":"https://accounts.google.com/o/oauth2/v2/auth?client_id=x","method":"GET","headers":{},"postData":null}}}
+{"method":"Network.requestWillBeSent","params":{"requestId":"4","request":{"url":"https://app.example.com/oauth/callback?code=x","method":"GET","headers":{},"postData":null}}}

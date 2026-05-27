@@ -1,0 +1,46 @@
+{
+  "name": "api-discover",
+  "version": "0.1.0",
+  "description": "Point at any website. Get a typed API client. Drives a real browser, captures every XHR, emits OpenAPI 3.1 + zero-dep client + an upfront auth-feasibility verdict.",
+  "type": "module",
+  "bin": {
+    "api-discover": "./bin/api-discover.mjs"
+  },
+  "scripts": {
+    "test": "node test/run.mjs",
+    "test:analyzer": "node test/analyzer.test.mjs",
+    "lint:secrets": "node test/sanity-regex.mjs"
+  },
+  "keywords": [
+    "openapi",
+    "api-discovery",
+    "reverse-engineering",
+    "browser-automation",
+    "cdp",
+    "chrome-devtools-protocol",
+    "claude-code"
+  ],
+  "author": "EJ Redd",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PythonLuvr/api-discover.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PythonLuvr/api-discover/issues"
+  },
+  "homepage": "https://github.com/PythonLuvr/api-discover#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "claude-skill/",
+    "install.sh",
+    "install.ps1",
+    "LICENSE",
+    "README.md",
+    "CONTRIBUTING.md"
+  ]
+}

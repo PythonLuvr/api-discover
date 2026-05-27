@@ -1,0 +1,1 @@
+{"method":"Network.webSocketFrameReceived","params":{"requestId":"ws-1","response":{"opcode":1,"payloadData":"{\"event\":\"job.done\",\"job_id\":\"job_abc123\",\"url\":\"https://cdn.example.com/x.png\"}"}}}

@@ -1,0 +1,1 @@
+{"method":"Network.responseReceived","params":{"requestId":"1","response":{"url":"https://protected.example.com/api/generate","status":200,"headers":{}}}}

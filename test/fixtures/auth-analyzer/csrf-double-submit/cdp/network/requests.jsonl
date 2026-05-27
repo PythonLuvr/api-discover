@@ -1,0 +1,1 @@
+{"method":"Network.requestWillBeSent","params":{"requestId":"1","request":{"url":"https://app.example.com/api/x","method":"POST","headers":{"Cookie":"X-MY-CSRF=abc123def456","x-csrf-token":"abc123def456"},"postData":null}}}
