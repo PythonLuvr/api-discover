@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="assets/banner.png" alt="api-discover" width="100%">
+  <img src="assets/logo.svg" width="120" alt="api-discover">
 </p>
 
-# api-discover
+<h1 align="center">api-discover</h1>
 
-**Point at any website. Get back code that talks to it like an API.**
+<p align="center"><strong>Point at any website. Get back code that talks to it like an API.</strong></p>
 
 Plenty of useful web tools have no public API. The only way to use them programmatically is either to click around by hand or write a scraper from scratch. `api-discover` replaces both. It watches one of your real browser sessions, captures every network call the site makes, and writes a typed client you can call from your own code.
 
