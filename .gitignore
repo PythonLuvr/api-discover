@@ -23,3 +23,6 @@ test/fixtures/**/auth-analysis.json
 .vscode/
 .idea/
 *.swp
+
+# Scratch / temporary work (logo concepts, banner render jobs, etc.)
+.tmp/

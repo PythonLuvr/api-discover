@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="api-discover" width="100%">
+</p>
+
 # api-discover
 
 **Point at any website. Get back code that talks to it like an API.**
