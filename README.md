@@ -146,6 +146,8 @@ cp -r claude-skill/api-discover ~/.claude/skills/
 - **Not a credential typer.** If login is required, you sign in by hand. The tool never types passwords from screenshots or memory.
 - **Not a ToS-violator.** You are responsible for what you point this at. Use it on your own accounts, your own clients' surfaces with consent, or genuinely public APIs.
 
+See [SECURITY.md](SECURITY.md) for the full acceptable-use policy and how to report vulnerabilities in the tool itself.
+
 ## Install
 
 `install.sh` / `install.ps1` are idempotent. They:
